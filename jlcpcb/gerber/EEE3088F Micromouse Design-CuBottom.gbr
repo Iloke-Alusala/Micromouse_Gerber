@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.0*%
-%TF.CreationDate,2025-03-22T02:35:01+02:00*%
+%TF.CreationDate,2025-03-23T19:49:56+02:00*%
 %TF.ProjectId,EEE3088F Micromouse Design,45454533-3038-4384-9620-4d6963726f6d,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.0) date 2025-03-22 02:35:01*
+G04 Created by KiCad (PCBNEW 9.0.0) date 2025-03-23 19:49:56*
 %MOMM*%
 %LPD*%
 G01*
@@ -44,35 +44,35 @@ G04 Aperture macros list end*
 G04 APERTURE END LIST*
 D10*
 %TO.P,J1,1,Pin_1*%
-%TO.N,unconnected-(J1-Pin_1-Pad1)*%
+%TO.N,/Motor2_B_OUT*%
 X103300000Y-74780000D03*
 D11*
 %TO.P,J1,2,Pin_2*%
-%TO.N,unconnected-(J1-Pin_2-Pad2)*%
+%TO.N,/Motor2_A_OUT*%
 X100760000Y-74780000D03*
 %TO.P,J1,3,Pin_3*%
-%TO.N,unconnected-(J1-Pin_3-Pad3)*%
+%TO.N,/Motor4_A_OUT*%
 X103300000Y-77320000D03*
 %TO.P,J1,4,Pin_4*%
-%TO.N,unconnected-(J1-Pin_4-Pad4)*%
+%TO.N,/MOTOR2_CTRL1*%
 X100760000Y-77320000D03*
 %TO.P,J1,5,Pin_5*%
-%TO.N,unconnected-(J1-Pin_5-Pad5)*%
+%TO.N,/Motor4_B_OUT*%
 X103300000Y-79860000D03*
 %TO.P,J1,6,Pin_6*%
-%TO.N,unconnected-(J1-Pin_6-Pad6)*%
+%TO.N,/MOTOR2_CTRL2*%
 X100760000Y-79860000D03*
 %TO.P,J1,7,Pin_7*%
 %TO.N,unconnected-(J1-Pin_7-Pad7)*%
 X103300000Y-82400000D03*
 %TO.P,J1,8,Pin_8*%
-%TO.N,unconnected-(J1-Pin_8-Pad8)*%
+%TO.N,/MOTOR4_CTRL1*%
 X100760000Y-82400000D03*
 %TO.P,J1,9,Pin_9*%
 %TO.N,unconnected-(J1-Pin_9-Pad9)*%
 X103300000Y-84940000D03*
 %TO.P,J1,10,Pin_10*%
-%TO.N,unconnected-(J1-Pin_10-Pad10)*%
+%TO.N,/MOTOR4_CTRL2*%
 X100760000Y-84940000D03*
 %TO.P,J1,11,Pin_11*%
 %TO.N,unconnected-(J1-Pin_11-Pad11)*%
@@ -102,7 +102,7 @@ X100760000Y-95100000D03*
 %TO.N,unconnected-(J1-Pin_19-Pad19)*%
 X103300000Y-97640000D03*
 %TO.P,J1,20,Pin_20*%
-%TO.N,unconnected-(J1-Pin_20-Pad20)*%
+%TO.N,/5V Out*%
 X100760000Y-97640000D03*
 %TO.P,J1,21,Pin_21*%
 %TO.N,unconnected-(J1-Pin_21-Pad21)*%
@@ -114,31 +114,31 @@ X100760000Y-100180000D03*
 %TO.N,unconnected-(J1-Pin_23-Pad23)*%
 X103300000Y-102720000D03*
 %TO.P,J1,24,Pin_24*%
-%TO.N,unconnected-(J1-Pin_24-Pad24)*%
+%TO.N,/MOTOR3_CTRL1*%
 X100760000Y-102720000D03*
 %TO.P,J1,25,Pin_25*%
 %TO.N,unconnected-(J1-Pin_25-Pad25)*%
 X103300000Y-105260000D03*
 %TO.P,J1,26,Pin_26*%
-%TO.N,unconnected-(J1-Pin_26-Pad26)*%
+%TO.N,/MOTOR3_CTRL2*%
 X100760000Y-105260000D03*
 %TO.P,J1,27,Pin_27*%
-%TO.N,unconnected-(J1-Pin_27-Pad27)*%
+%TO.N,/MOTOR3_A_OUT*%
 X103300000Y-107800000D03*
 %TO.P,J1,28,Pin_28*%
-%TO.N,unconnected-(J1-Pin_28-Pad28)*%
+%TO.N,/MOTOR1_CTRL1*%
 X100760000Y-107800000D03*
 %TO.P,J1,29,Pin_29*%
-%TO.N,unconnected-(J1-Pin_29-Pad29)*%
+%TO.N,/MOTOR3_B_OUT*%
 X103300000Y-110340000D03*
 %TO.P,J1,30,Pin_30*%
-%TO.N,unconnected-(J1-Pin_30-Pad30)*%
+%TO.N,/MOTOR1_CTRL2*%
 X100760000Y-110340000D03*
 %TO.P,J1,31,Pin_31*%
-%TO.N,unconnected-(J1-Pin_31-Pad31)*%
+%TO.N,/MOTOR1_B_OUT*%
 X103300000Y-112880000D03*
 %TO.P,J1,32,Pin_32*%
-%TO.N,unconnected-(J1-Pin_32-Pad32)*%
+%TO.N,/MOTOR1_A_OUT*%
 X100760000Y-112880000D03*
 %TD*%
 D12*

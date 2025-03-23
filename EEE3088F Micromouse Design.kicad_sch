@@ -5,6 +5,286 @@
 	(uuid "9da86a77-c081-4eef-8f80-aa4f3cdcfcf8")
 	(paper "A2")
 	(lib_symbols
+		(symbol "Battery_Management:MCP73833-xxx-MF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP73833-xxx-MF"
+				(at 10.16 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.58x2.35mm"
+				(at 33.02 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22005b.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller, DFN-10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "lithium-ion battery charger"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DFN*1EP*3x3mm*P0.5mm*EP1.58x2.35mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP73833-xxx-MF_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "V_{DD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "STAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "STAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "~{PG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "V_{SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "V_{BAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "V_{BAT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "THERM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "PROG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2297,6 +2577,410 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_4"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_5"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_5_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_5_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_6"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_6_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_6_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_7"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_7_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_7_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:TPS5430DDA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3483,6 +4167,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -3774,6 +4756,12 @@
 		(uuid "30794bc4-a791-4abe-8170-836b1d71916e")
 	)
 	(junction
+		(at 205.74 346.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37622c09-e284-4652-8e02-f33aee8a28d8")
+	)
+	(junction
 		(at 101.6 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3852,6 +4840,12 @@
 		(uuid "8d9d1af6-1743-47ad-8095-a0fbb6b6011d")
 	)
 	(junction
+		(at 241.3 386.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "953ae65b-8284-4ca9-a2ea-5484794b8b50")
+	)
+	(junction
 		(at 170.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3862,6 +4856,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2c0ef66-8370-48d2-b827-d6a94800d3f2")
+	)
+	(junction
+		(at 241.3 359.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4635e3b-8b72-451d-b78d-57e9ac98febc")
+	)
+	(junction
+		(at 229.87 361.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7faf346-4a17-486d-9b9c-8a727723fa70")
 	)
 	(junction
 		(at 24.13 378.46)
@@ -4031,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 354.33) (xy 252.73 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11233d60-6ccc-494f-a47e-a4579ab06ab4")
+	)
+	(wire
+		(pts
 			(xy 57.15 359.41) (xy 60.96 359.41)
 		)
 		(stroke
@@ -4088,6 +5104,16 @@
 			(type default)
 		)
 		(uuid "1910bf0f-ebdd-4511-b752-55670b204bae")
+	)
+	(wire
+		(pts
+			(xy 241.3 386.08) (xy 241.3 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197bc7b9-71e4-48e9-bcc8-5afd8afe5c43")
 	)
 	(wire
 		(pts
@@ -4171,6 +5197,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 361.95) (xy 231.14 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f8c468-28b5-4b60-b299-c199aec4be35")
+	)
+	(wire
+		(pts
 			(xy 41.91 359.41) (xy 45.72 359.41)
 		)
 		(stroke
@@ -4188,6 +5224,16 @@
 			(type default)
 		)
 		(uuid "3f135bcb-8d9d-49e7-b8e7-941d7d42fb9b")
+	)
+	(wire
+		(pts
+			(xy 265.43 377.19) (xy 265.43 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41413749-d530-4eef-92ae-34d3e25c9052")
 	)
 	(wire
 		(pts
@@ -4238,6 +5284,16 @@
 			(type default)
 		)
 		(uuid "47399101-1681-45a0-a27a-10a4d88d3050")
+	)
+	(wire
+		(pts
+			(xy 229.87 361.95) (xy 229.87 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f79c42-3c13-48b1-b631-3e29ddc1fd17")
 	)
 	(wire
 		(pts
@@ -4378,6 +5434,16 @@
 			(type default)
 		)
 		(uuid "61003576-313e-46f5-8925-f829e3908721")
+	)
+	(wire
+		(pts
+			(xy 241.3 359.41) (xy 241.3 356.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61596c70-513d-4fbc-8273-3da0a86d6d06")
 	)
 	(wire
 		(pts
@@ -4631,6 +5697,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 361.95) (xy 229.87 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5fee90-8fa6-44f0-af7e-8e46dcfcb936")
+	)
+	(wire
+		(pts
+			(xy 205.74 346.71) (xy 220.98 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a762915-693e-4a30-98bd-0fe4de38a008")
+	)
+	(wire
+		(pts
 			(xy 90.17 24.13) (xy 90.17 28.575)
 		)
 		(stroke
@@ -4751,6 +5837,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 340.36) (xy 205.74 346.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6272873-3d7b-461f-a2f3-b5378402462b")
+	)
+	(wire
+		(pts
 			(xy 234.95 76.2) (xy 243.84 76.2)
 		)
 		(stroke
@@ -4831,6 +5927,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 386.08) (xy 265.43 386.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade87688-d110-44c2-8e73-a57fd91ca0ea")
+	)
+	(wire
+		(pts
 			(xy 135.89 99.06) (xy 135.89 109.22)
 		)
 		(stroke
@@ -4848,6 +5954,16 @@
 			(type default)
 		)
 		(uuid "b0005c18-8c44-49de-a5a9-42f0dc671f80")
+	)
+	(wire
+		(pts
+			(xy 265.43 369.57) (xy 265.43 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ed39d1-f1d1-4ee9-b394-67b6710fdb90")
 	)
 	(wire
 		(pts
@@ -4878,6 +5994,16 @@
 			(type default)
 		)
 		(uuid "ba53c6a6-45cd-4f8d-bd61-159ffd01e37f")
+	)
+	(wire
+		(pts
+			(xy 257.81 354.33) (xy 270.51 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbbf610c-0bc1-4969-9600-e0b98b32795e")
 	)
 	(wire
 		(pts
@@ -4938,6 +6064,16 @@
 			(type default)
 		)
 		(uuid "c0b47072-f5d5-4d6f-bcdb-daac30f478dc")
+	)
+	(wire
+		(pts
+			(xy 241.3 378.46) (xy 241.3 374.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1553cf4-dff2-4814-9f46-d7161cc292c3")
 	)
 	(wire
 		(pts
@@ -5021,6 +6157,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 364.49) (xy 278.13 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8e8862-e89a-4df0-97d4-71c29e8fd355")
+	)
+	(wire
+		(pts
 			(xy 134.62 359.41) (xy 138.43 359.41)
 		)
 		(stroke
@@ -5101,6 +6247,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 369.57) (xy 241.3 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c7706c-1263-432a-a9c7-58ee773c821c")
+	)
+	(wire
+		(pts
 			(xy 143.51 303.53) (xy 143.51 312.42)
 		)
 		(stroke
@@ -5128,6 +6284,16 @@
 			(type default)
 		)
 		(uuid "d881f99a-8977-4baf-82f8-9e2efcd393f6")
+	)
+	(wire
+		(pts
+			(xy 241.3 359.41) (xy 265.43 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd87530-269e-4997-9446-e0d332d6e90b")
 	)
 	(wire
 		(pts
@@ -5178,6 +6344,16 @@
 			(type default)
 		)
 		(uuid "efcdcaae-7908-4ec3-8758-cd35bc5efe87")
+	)
+	(wire
+		(pts
+			(xy 241.3 386.08) (xy 241.3 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02323f4-d3ec-442a-8011-0ed0ada96307")
 	)
 	(wire
 		(pts
@@ -5659,6 +6835,16 @@
 		)
 		(uuid "81bad184-4d36-4169-acf7-771fd3f99c25")
 	)
+	(label "V_Battery+"
+		(at 241.3 346.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88aa3c41-b171-4c88-8367-64d2dfa8aa01")
+	)
 	(label "5V Out"
 		(at 101.6 373.38 180)
 		(effects
@@ -5679,6 +6865,16 @@
 		)
 		(uuid "9213d292-34cf-4ea8-a37b-91219d9144a3")
 	)
+	(label "5V Out"
+		(at 205.74 340.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9252e2f6-62f9-4d26-93d8-2bedfc9b484d")
+	)
 	(label "3.3V Out"
 		(at 44.45 57.15 0)
 		(effects
@@ -5688,6 +6884,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e1ca381-be3f-4718-9fbb-4f182823dc8a")
+	)
+	(label "FAST_CHARGE_CTRL"
+		(at 278.13 364.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9efb2f54-166a-492b-b0bf-95e1de91fa54")
 	)
 	(label "V_Battery+"
 		(at 90.17 24.13 180)
@@ -5778,6 +6984,16 @@
 			(justify left bottom)
 		)
 		(uuid "cd6829f9-f8b4-41cf-92ac-1e57fef5ccc9")
+	)
+	(label "FAST_CHARGE_CTRL"
+		(at 31.75 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d000cf76-a9fc-411e-8350-b640f0cbb404")
 	)
 	(label "Vcc"
 		(at 73.025 52.07 0)
@@ -6316,6 +7532,74 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_7")
+		(lib_id "power:GND")
+		(at 270.51 354.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c50f9ab-2c8e-4244-a854-94793c356ed6")
+		(property "Reference" "#PWR036"
+			(at 276.86 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 354.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0ee1c9-46ae-48a3-be94-80d7c5480425")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 251.46 83.82 0)
 		(unit 1)
@@ -6507,6 +7791,101 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:MCP73833-xxx-MF")
+		(at 231.14 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16635af9-1a76-4059-9999-d0a63d4cf746")
+		(property "Reference" "U8"
+			(at 231.14 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP73833-xxx-MF"
+			(at 231.14 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.58x2.35mm"
+			(at 264.16 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22005b.pdf"
+			(at 231.14 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller, DFN-10"
+			(at 231.14 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3ac51bb-411b-4a9a-9e68-5424ab17cf83")
+		)
+		(pin "8"
+			(uuid "1625291c-0375-4752-9152-817457219a11")
+		)
+		(pin "9"
+			(uuid "1aad4e1e-f70e-48a1-b1aa-d557a93c3bfc")
+		)
+		(pin "6"
+			(uuid "1945c841-78ce-4152-a5fd-2bb980cef666")
+		)
+		(pin "1"
+			(uuid "9d51bcff-000d-460b-a039-e9875c5904d4")
+		)
+		(pin "11"
+			(uuid "b9adc306-cc09-410b-9199-4af147427c04")
+		)
+		(pin "10"
+			(uuid "821a6a4c-c945-4573-8042-99a8a460cccb")
+		)
+		(pin "7"
+			(uuid "287e30e0-d699-400c-b803-22f46c6c206d")
+		)
+		(pin "4"
+			(uuid "a3f5a885-382b-4d9f-9c10-52297ab3c48b")
+		)
+		(pin "3"
+			(uuid "e271783e-ba30-44b4-8e6b-51c1bd2c27b8")
+		)
+		(pin "5"
+			(uuid "90a8e3eb-8f60-4fd5-bf63-88ffa5a25c33")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6778,6 +8157,73 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_6")
+		(lib_id "power:GND")
+		(at 241.3 394.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d259401-e715-48e0-a3cf-17e129f0c88b")
+		(property "Reference" "#PWR035"
+			(at 241.3 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb85c493-0a46-4454-a15d-085f9001723d")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7204,6 +8650,83 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 267.97 364.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33867a15-2d87-4de7-9e36-cde62269fd58")
+		(property "Reference" "Q1"
+			(at 261.62 363.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 261.62 365.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 262.89 366.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 262.89 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 267.97 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f5b8153-7b3e-48f2-aba8-4daad95b73d5")
+		)
+		(pin "1"
+			(uuid "45a65deb-e4b3-4e8d-973f-695e568039b9")
+		)
+		(pin "3"
+			(uuid "bbd67079-b8bf-40da-93db-7e440fa30c8c")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8892,6 +10415,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 255.27 354.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cef7ad-1409-47a0-bc9f-274473487913")
+		(property "Reference" "R13"
+			(at 255.27 347.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 255.27 350.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 255.27 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 255.27 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bef95029-4298-4ea5-a692-d4d171c5e5d3")
+		)
+		(pin "2"
+			(uuid "b876f3e6-ae06-4eec-b3b8-3051f898950b")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 83.82 0)
 		(unit 1)
@@ -9160,6 +10751,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.3 381 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8421001b-0cf7-4258-b39e-a2acc9ad15cc")
+		(property "Reference" "R10"
+			(at 243.84 379.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 243.84 382.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 241.3 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 241.3 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47a7d3ea-1b58-4bee-888a-45208a5ecbaf")
+		)
+		(pin "2"
+			(uuid "4ec665d1-b8e6-4a98-83be-105fe9f4a0ef")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 134.62 359.41 0)
@@ -9221,6 +10882,76 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 265.43 383.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "878974a2-d20f-4b3e-9820-b22dd9b9fc88")
+		(property "Reference" "R12"
+			(at 267.97 382.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 267.97 384.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 265.43 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 265.43 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66fd1bf-e61f-4748-bb60-36713dc2b46c")
+		)
+		(pin "2"
+			(uuid "ec571ef4-9e4b-4ebe-8d5a-ab27e0157759")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9453,6 +11184,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 205.74 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "953de54d-8294-4a91-849b-e4a20fcd3f43")
+		(property "Reference" "#PWR033"
+			(at 205.74 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58aa14d6-f959-4d61-8976-219557deb8ea")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 247.65 128.27 0)
 		(unit 1)
@@ -9579,6 +11377,76 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 205.74 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b56e380-2a40-437b-ac10-d0f582adc7fb")
+		(property "Reference" "C23"
+			(at 208.28 347.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 208.28 350.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 205.74 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd680bd4-dc86-45ed-8445-06150b21e65c")
+		)
+		(pin "1"
+			(uuid "65459632-3eb8-4cce-a253-22810a38bdec")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -9717,6 +11585,76 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.3 372.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fdad5f0-b6d6-454e-86db-4fac17d374f4")
+		(property "Reference" "R9"
+			(at 243.84 370.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 243.84 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 241.3 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 241.3 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "376ed1cc-83fe-47a0-a1a5-3667aed645ca")
+		)
+		(pin "2"
+			(uuid "fc3ef2f6-ac60-4e0e-8e07-f4845555c5fc")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10689,6 +12627,143 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 265.43 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6a1b053-4e7b-4fe4-819c-f11ed4ca82b0")
+		(property "Reference" "R11"
+			(at 267.97 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 267.97 375.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 265.43 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 265.43 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d53acd02-8349-461d-a501-ea250406f340")
+		)
+		(pin "2"
+			(uuid "43832ae9-3892-41aa-b64a-a21f68c7ad91")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 229.87 367.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5caeec-2c89-4313-aafc-809563a13baf")
+		(property "Reference" "#PWR034"
+			(at 229.87 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b7b26d-a6da-4efd-a511-87ab2df44680")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
