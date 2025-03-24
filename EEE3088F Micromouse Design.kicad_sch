@@ -5576,18 +5576,6 @@
 		(uuid "6bf3422b-d505-4fb7-ae15-560b0459c68e")
 	)
 	(junction
-		(at 285.75 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dcf337c-eeab-4a7e-8328-ab941e4d4b22")
-	)
-	(junction
-		(at 280.67 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7428728f-61e7-4509-86c9-497a4e37c02e")
-	)
-	(junction
 		(at 260.35 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6426,16 +6414,6 @@
 			(type default)
 		)
 		(uuid "6705ed0b-18eb-4c85-a783-dc0584826d37")
-	)
-	(wire
-		(pts
-			(xy 285.75 86.36) (xy 280.67 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6770c40b-3159-4676-88a8-857f5ddd25d6")
 	)
 	(wire
 		(pts
@@ -7647,7 +7625,7 @@
 		)
 		(uuid "323e9c60-1655-4f81-bebb-90819aa2a815")
 	)
-	(label "VBus"
+	(label "HV"
 		(at 353.06 93.98 180)
 		(effects
 			(font
@@ -7766,6 +7744,16 @@
 			(justify right bottom)
 		)
 		(uuid "5da49522-c808-4871-9afe-af23892953d8")
+	)
+	(label "HV"
+		(at 44.45 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e3437d6-bd55-443e-adb3-5034475020b5")
 	)
 	(label "FB"
 		(at 186.69 91.44 180)
@@ -7928,6 +7916,16 @@
 		(uuid "81bad184-4d36-4169-acf7-771fd3f99c25")
 	)
 	(label "V_Battery+"
+		(at 44.45 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85119268-e512-4ab6-ad23-0858f6441823")
+	)
+	(label "V_Battery+"
 		(at 241.3 346.71 0)
 		(effects
 			(font
@@ -8027,7 +8025,7 @@
 		)
 		(uuid "afef594e-fd62-4e53-8c59-48cb56191b64")
 	)
-	(label "VBus"
+	(label "HV"
 		(at 379.73 64.77 0)
 		(effects
 			(font
@@ -8147,7 +8145,7 @@
 		)
 		(uuid "dd15b969-f767-42e5-b234-b79581c13d70")
 	)
-	(label "VBus"
+	(label "HV"
 		(at 373.38 102.87 0)
 		(effects
 			(font
@@ -11658,6 +11656,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 31.75 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7372b40c-064d-47cd-8f13-f5e32b46a4cd")
+		(property "Reference" "#PWR041"
+			(at 25.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae193d66-a074-48e5-878a-874d509ef7de")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 255.27 354.33 90)
 		(unit 1)
@@ -14098,6 +14162,72 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4a8999b-77e2-41f0-9840-c9bb18838ff9")
+		(property "Reference" "#PWR042"
+			(at 25.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93505642-0993-4c54-a8a2-409fabfc82d4")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
