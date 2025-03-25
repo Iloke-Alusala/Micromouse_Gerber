@@ -1004,6 +1004,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25466"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b062acf9-5048-47d1-95ad-2209cb492729")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/939bfbe9-f770-4e03-93e5-1fbf4c50e7d4")
 		(sheetname "/")
@@ -1168,7 +1180,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "68k"
 			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "e13b92e7-1a2d-4321-bcec-8442d02619be")
@@ -3839,6 +3851,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C970725"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c0e5476-d350-43ac-9cb5-d2946c1d2b10")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SSOP*3.9x4.9mm*P1mm*EP2.1x3.3mm*")
 		(path "/dba066be-13de-464c-a683-4ec07ed5ac24")
 		(sheetname "/")
@@ -4346,7 +4370,7 @@
 				)
 			)
 		)
-		(property "Value" "22pF"
+		(property "Value" "1.5nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "8efb5dbe-955d-42f8-b4ff-e7b32b5f0b47")
@@ -4586,7 +4610,7 @@
 		(path "/a55bf63e-a5ab-4620-aa2d-8f6463ac34d0")
 		(sheetname "/")
 		(sheetfile "EEE3088F Micromouse Design.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -3.87 -1.33)
 			(end -3.87 39.43)
@@ -8087,6 +8111,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C87469"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d51c6c43-bff1-4621-9af1-83a30f17edda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/8a0f9109-dd4e-49d0-951f-965ac742fa53")
 		(sheetname "/")
@@ -10269,7 +10305,7 @@
 		(path "/c5f72f90-5dc2-4199-b91d-257c454bcc88")
 		(sheetname "/")
 		(sheetfile "EEE3088F Micromouse Design.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 5.11 2.31)
 			(end 5.11 -1.71)
@@ -10614,6 +10650,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe13ca20-651e-491b-8093-f33107616a65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9864"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b4026285-0beb-43ca-93f9-b41e0cb77eb0")
 			(effects
 				(font
 					(size 1.27 1.27)

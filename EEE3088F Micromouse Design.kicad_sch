@@ -5830,6 +5830,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB-C Integration and Power Delivery Negotiation"
+		(exclude_from_sim no)
+		(at 539.242 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17b34e6d-53e5-4fa9-897a-a0fdbd4d0a87")
+	)
 	(text "200mA Motor"
 		(exclude_from_sim no)
 		(at 45.212 320.04 0)
@@ -5850,6 +5860,16 @@
 		)
 		(uuid "4f2f511c-cc38-4392-8d52-ddd02258dcb1")
 	)
+	(text "5V Output Step Up Boost Converter\n\n "
+		(exclude_from_sim no)
+		(at 410.718 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "888e88f6-c093-4347-a577-598d0dcae9c7")
+	)
 	(text "5V Battey Charger"
 		(exclude_from_sim no)
 		(at 243.586 320.04 0)
@@ -5859,6 +5879,26 @@
 			)
 		)
 		(uuid "b19a367d-7b94-40ad-af72-2e25cd20260e")
+	)
+	(text "3.3V Output Step down Buck Converter Circuit\n"
+		(exclude_from_sim no)
+		(at 257.302 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5754dfd-a6b2-42e3-8ce3-ee98009bdba9")
+	)
+	(text "Battery Monitoring and Switching Circuit"
+		(exclude_from_sim no)
+		(at 139.954 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cdf5258d-52f7-44d3-a87f-465662c64da6")
 	)
 	(text "500mA Motor"
 		(exclude_from_sim no)
@@ -14146,7 +14186,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a55bf63e-a5ab-4620-aa2d-8f6463ac34d0")
 		(property "Reference" "J1"
@@ -15509,7 +15549,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c5f72f90-5dc2-4199-b91d-257c454bcc88")
 		(property "Reference" "J2"
