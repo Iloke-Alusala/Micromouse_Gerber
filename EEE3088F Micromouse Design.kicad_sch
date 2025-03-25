@@ -5842,6 +5842,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS61088RHLR:TPS61088RHLR"
 			(pin_names
 				(offset 1.016)
@@ -7687,7 +7863,7 @@
 		(uuid "2679445e-9a5f-42d4-b256-6b11699f25e8")
 	)
 	(junction
-		(at 73.025 41.91)
+		(at 72.39 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2781a2a7-dd66-4c29-8c10-7a83d3535170")
@@ -7801,7 +7977,7 @@
 		(uuid "6bc06fa5-74e9-416e-af6c-16831e959d9a")
 	)
 	(junction
-		(at 73.025 46.99)
+		(at 72.39 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bf3422b-d505-4fb7-ae15-560b0459c68e")
@@ -8514,6 +8690,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 102.87) (xy 191.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ca0910-b641-4251-8a22-d76eb2b713f4")
+	)
+	(wire
+		(pts
 			(xy 478.79 97.79) (xy 478.79 106.68)
 		)
 		(stroke
@@ -8941,16 +9127,6 @@
 			(type default)
 		)
 		(uuid "5745a310-6b2a-4a9d-b5fb-393b637cbc0a")
-	)
-	(wire
-		(pts
-			(xy 73.025 46.99) (xy 73.025 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577851fb-436c-45e8-9c2d-8ac256c12e9f")
 	)
 	(wire
 		(pts
@@ -10024,7 +10200,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 28.575) (xy 90.17 28.575)
+			(xy 72.39 28.575) (xy 90.17 28.575)
 		)
 		(stroke
 			(width 0)
@@ -10121,6 +10297,16 @@
 			(type default)
 		)
 		(uuid "b3c45be3-f0d9-4de1-aba6-61d257ac92a5")
+	)
+	(wire
+		(pts
+			(xy 72.39 46.99) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e2ecd2-8bad-4d56-a86e-64728a987bad")
 	)
 	(wire
 		(pts
@@ -10244,7 +10430,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 46.99) (xy 80.01 46.99)
+			(xy 72.39 46.99) (xy 80.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10644,7 +10830,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 41.91) (xy 80.01 41.91)
+			(xy 72.39 41.91) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -10744,7 +10930,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 96.52) (xy 191.77 106.68)
+			(xy 191.77 96.52) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10864,6 +11050,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 63.5) (xy 74.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5f736e-18b5-44da-83b6-bc5097644e46")
+	)
+	(wire
+		(pts
 			(xy 234.95 91.44) (xy 256.54 91.44)
 		)
 		(stroke
@@ -10954,7 +11150,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 41.91) (xy 73.025 28.575)
+			(xy 72.39 41.91) (xy 72.39 28.575)
 		)
 		(stroke
 			(width 0)
@@ -11912,16 +12108,6 @@
 		)
 		(uuid "d000cf76-a9fc-411e-8350-b640f0cbb404")
 	)
-	(label "Vcc"
-		(at 73.025 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d122a300-240b-4ce8-8e57-7cbfe9bbb7c1")
-	)
 	(label "Motor2_B_OUT"
 		(at 31.75 36.83 180)
 		(effects
@@ -12011,6 +12197,16 @@
 			(justify right bottom)
 		)
 		(uuid "e19ae584-da29-461f-8ab6-dc65b5f36ab6")
+	)
+	(label "Vcc"
+		(at 74.93 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2ffe71e-aaff-429d-9448-9892a06b9785")
 	)
 	(label "MOTOR2_CTRL1"
 		(at 532.13 63.5 180)
@@ -12462,7 +12658,7 @@
 				)
 			)
 		)
-		(property "Value" "255k"
+		(property "Value" "220k"
 			(at 196.596 94.488 90)
 			(effects
 				(font
@@ -14084,6 +14280,72 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 191.77 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c102e0b-cdac-4eae-bd2a-109b4ce3646c")
+		(property "Reference" "R21"
+			(at 189.738 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 194.056 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2a1f00f-e3f2-420c-8419-b76cf5e076d8")
+		)
+		(pin "2"
+			(uuid "b24c710d-06e4-472e-a76f-551e78aa7074")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -16614,6 +16876,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 72.39 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "644f7213-784c-4919-8b97-ed07ba776540")
+		(property "Reference" "SW1"
+			(at 77.47 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 77.47 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 72.39 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8cf6acb-b75f-402a-8c15-0e268149912d")
+		)
+		(pin "3"
+			(uuid "c411d75c-5620-46b2-af16-411a52e6215c")
+		)
+		(pin "2"
+			(uuid "7a553caa-fcc5-4ce9-9ad8-f50ffb3f99a3")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 551.18 209.55 0)
 		(unit 1)
@@ -18462,7 +18797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 73.025 44.45 180)
+		(at 72.39 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18471,7 +18806,7 @@
 		(fields_autoplaced yes)
 		(uuid "939bfbe9-f770-4e03-93e5-1fbf4c50e7d4")
 		(property "Reference" "R1"
-			(at 74.93 43.18 0)
+			(at 74.295 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18815,7 @@
 			)
 		)
 		(property "Value" "0.15"
-			(at 74.93 45.72 0)
+			(at 74.295 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18489,7 +18824,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 73.025 44.45 0)
+			(at 72.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18498,7 +18833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.025 44.45 0)
+			(at 72.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18507,7 +18842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.025 44.45 0)
+			(at 72.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21003,7 +21338,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1mF"
+		(property "Value" "0.01uF"
 			(at 106.6738 87.63 0)
 			(effects
 				(font
