@@ -1,0 +1,21 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C10,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,93.4325,-80.59,0.0,top
+C11,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,93.4325,-82.56,0.0,top
+C12,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,93.4325,-84.53,0.0,top
+C13,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,93.4325,-86.5,0.0,top
+C2,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,91.5,-73.5,0.0,top
+C3,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,87.0125,-82.56,0.0,top
+C4,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,87.0125,-84.53,0.0,top
+C5,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,87.0125,-86.5,0.0,top
+C6,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,87.5,-76.0,0.0,top
+C7,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,90.2225,-82.56,0.0,top
+C8,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,90.2225,-84.53,0.0,top
+C9,0.1mF,C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,90.2225,-86.5,0.0,top
+J1,Conn_02x16_Odd_Even,PinSocket_2x16_P2.54mm_Vertical,102.03,-93.83,0.0,top
+J2,Conn_01x02,JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,109.96,-93.98,180.0,top
+R1,0.15,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,108.56,-86.4,0.0,top
+U1,INA219AxD,SOIC-8_3.9x4.9mm_P1.27mm,109.81,-81.53,0.0,top
+U2,DRV8837,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,91.5,-112.1,0.0,top
+U3,DRV8837,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,95.5,-72.6,0.0,top
+U4,DRV8837,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,110.55,-105.25,0.0,top
+U5,DRV8837,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm,91.0,-105.6,0.0,top
