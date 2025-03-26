@@ -5829,6 +5829,27 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1206"
+		(exclude_from_sim no)
+		(at 239.014 370.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0527c37d-7436-4910-bade-3e5f9861bf34")
+	)
+	(text "1206"
+		(exclude_from_sim no)
+		(at 127.762 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "134b2582-50a4-45dd-bb64-c4c840a5a62c")
+	)
 	(text "USB-C Integration and Power Delivery Negotiation"
 		(exclude_from_sim no)
 		(at 539.242 16.256 0)
@@ -5838,6 +5859,16 @@
 			)
 		)
 		(uuid "17b34e6d-53e5-4fa9-897a-a0fdbd4d0a87")
+	)
+	(text "Find Capacitors"
+		(exclude_from_sim no)
+		(at 284.48 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "242487f4-9fe4-4154-9b14-7da4a69540a0")
 	)
 	(text "200mA Motor"
 		(exclude_from_sim no)
@@ -5849,6 +5880,16 @@
 		)
 		(uuid "45898f00-7f3f-4094-a284-89d487de4139")
 	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 276.606 385.064 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "468062be-914e-4e5b-9925-6ea838d4ae73")
+	)
 	(text "External Load Switching x2 (Downloaded Footprint Online)"
 		(exclude_from_sim no)
 		(at 375.412 319.278 0)
@@ -5859,6 +5900,26 @@
 		)
 		(uuid "4f2f511c-cc38-4392-8d52-ddd02258dcb1")
 	)
+	(text "Keep searching here"
+		(exclude_from_sim no)
+		(at 310.388 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66588df9-3ed5-4c86-bc53-19e5046c4297")
+	)
+	(text "locate resistor & change\nfootprint\n"
+		(exclude_from_sim no)
+		(at 95.25 342.392 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75cc5e8b-f4f3-4aa8-91cc-0e70b8e3b33e")
+	)
 	(text "5V Output Step Up Boost Converter\n\n "
 		(exclude_from_sim no)
 		(at 410.718 18.034 0)
@@ -5868,6 +5929,26 @@
 			)
 		)
 		(uuid "888e88f6-c093-4347-a577-598d0dcae9c7")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 239.014 382.524 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "93f2055a-42c4-460b-aade-770ed34dc17f")
+	)
+	(text "0603"
+		(exclude_from_sim no)
+		(at 276.86 376.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0ebaf00-bc57-4997-b765-a83ee5d9814c")
 	)
 	(text "5V Battey Charger"
 		(exclude_from_sim no)
@@ -6192,12 +6273,6 @@
 		(uuid "f6a89b7e-2275-443f-aea2-f623a942cea4")
 	)
 	(junction
-		(at 148.59 46.355)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc6abcda-d846-45c6-9d4c-bb1bd34fb3b8")
-	)
-	(junction
 		(at 290.83 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6502,16 +6577,6 @@
 			(type default)
 		)
 		(uuid "1cefc978-78ee-4978-bd59-5176b7553289")
-	)
-	(wire
-		(pts
-			(xy 148.59 46.355) (xy 148.59 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec1edd4-ecc7-4286-aca2-71d6d33e7b3b")
 	)
 	(wire
 		(pts
@@ -7445,16 +7510,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 41.91) (xy 148.59 46.355)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b084597-9b52-412d-99a6-0ae48612cc9a")
-	)
-	(wire
-		(pts
 			(xy 29.21 347.98) (xy 29.21 360.68)
 		)
 		(stroke
@@ -7472,6 +7527,16 @@
 			(type default)
 		)
 		(uuid "9056f06b-68ef-47d8-a75f-6735ef884e10")
+	)
+	(wire
+		(pts
+			(xy 148.59 45.72) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907023d6-855f-4724-861e-acbd1a59b3d5")
 	)
 	(bus
 		(pts
@@ -7802,16 +7867,6 @@
 			(type default)
 		)
 		(uuid "ab38d6a9-7309-470c-a2e2-32baf58a9c91")
-	)
-	(wire
-		(pts
-			(xy 130.81 46.355) (xy 148.59 46.355)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abae8071-4041-4c2b-9588-b8cc6d02b720")
 	)
 	(wire
 		(pts
@@ -8923,6 +8978,36 @@
 		)
 		(uuid "4a39374f-7a11-4541-ae54-6073cf3f5839")
 	)
+	(label "HL"
+		(at 445.77 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4de0c488-3393-4f5d-9651-2e14813a6c1f")
+	)
+	(label "HL"
+		(at 283.21 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e688e18-a464-4d14-8f15-824eddd35662")
+	)
+	(label "HL"
+		(at 275.59 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f980b22-e1bf-4639-9198-91aa1cc66408")
+	)
 	(label "FAST_CHARGE_CTRL"
 		(at 279.4 365.76 0)
 		(effects
@@ -9043,6 +9128,16 @@
 		)
 		(uuid "6533631d-4e8e-4a9e-8c51-146d6b711bba")
 	)
+	(label "HL"
+		(at 463.55 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "696ed5f6-001d-4740-b07b-a1a7affdd701")
+	)
 	(label "Vcc"
 		(at 350.52 78.74 180)
 		(effects
@@ -9103,6 +9198,16 @@
 		)
 		(uuid "7a339d2e-7ccf-40c4-a9ed-b4ff6ac1a549")
 	)
+	(label "HL"
+		(at 304.8 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bc8a7dc-57cb-4f41-bcad-aeb2cb61e822")
+	)
 	(label "5V Out"
 		(at 478.79 50.8 0)
 		(effects
@@ -9122,6 +9227,16 @@
 			(justify left bottom)
 		)
 		(uuid "81bad184-4d36-4169-acf7-771fd3f99c25")
+	)
+	(label "HL"
+		(at 303.53 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8381520f-41b4-45c3-9ad5-ef3c63f3b2a5")
 	)
 	(label "V_Battery+"
 		(at 59.69 67.31 0)
@@ -9154,7 +9269,7 @@
 		(uuid "9e1ca381-be3f-4718-9fbb-4f182823dc8a")
 	)
 	(label "V_Battery+"
-		(at 148.59 41.91 180)
+		(at 130.81 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9192,6 +9307,16 @@
 			(justify left bottom)
 		)
 		(uuid "b2fd1dcd-894a-457a-bd88-a453ad7360ec")
+	)
+	(label "5V Out"
+		(at 148.59 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b307a168-5b17-476c-996d-cddc58866e09")
 	)
 	(label "3V3 Out"
 		(at 303.53 52.07 0)
@@ -9232,6 +9357,26 @@
 			(justify right bottom)
 		)
 		(uuid "b9e281b3-1e67-44cd-892f-2e410cf28c2e")
+	)
+	(label "HL"
+		(at 290.83 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bee8f961-7b91-4691-bf54-281c8f1227ee")
+	)
+	(label "HL"
+		(at 473.71 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4b3b828-6d0a-4ecf-8d73-fa4ad0e4fc7a")
 	)
 	(label "MOTOR1_CTRL2"
 		(at 59.69 87.63 0)
@@ -9312,6 +9457,16 @@
 			(justify right bottom)
 		)
 		(uuid "d20a8429-27ce-46f2-8dc0-fb078dcef64e")
+	)
+	(label "HL"
+		(at 455.93 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d23f4fec-58fb-4e24-8aa8-a32a85d8483f")
 	)
 	(label "MOTOR1_A_OUT"
 		(at 77.47 368.3 0)
@@ -10205,7 +10360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.7 340.36 0)
 			(effects
 				(font
@@ -10312,93 +10467,6 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 19.05 345.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "184fd7f6-7023-4e8d-a592-801466500c93")
-		(property "Reference" "R26"
-			(at 21.59 344.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1"
-			(at 21.59 346.7099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 19.05 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 19.05 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 19.05 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 19.05 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2055673f-6a33-4c81-85db-26a9ebfd3988")
-		)
-		(pin "2"
-			(uuid "fdb50df5-7459-4537-ba4b-408c56d3e17e")
-		)
-		(instances
-			(project "EEE3088F Micromouse Design"
-				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
-					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11070,6 +11138,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 260.35 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ddcfaf-4543-43d4-b795-bda6e61df193")
+		(property "Reference" "C27"
+			(at 262.89 337.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 262.89 340.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 260.35 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 260.35 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc37ad9-5e39-4805-aacf-95392f7af0e9")
+		)
+		(pin "2"
+			(uuid "e1888d2e-0d8c-43dc-b45e-4ed8e2fb7df8")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 297.18 77.47 180)
 		(unit 1)
@@ -11611,15 +11748,14 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 354.33 85.09 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ce27af7-35c3-4fb1-9041-445a6a14b2e4")
-		(property "Reference" "C15"
-			(at 351.79 83.8262 0)
+		(uuid "3c72315a-7530-40e1-adfe-fd3fdc2a5495")
+		(property "Reference" "C39"
+			(at 356.87 83.8262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +11764,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 351.79 86.3662 0)
+			(at 356.87 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,7 +11772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 354.33 85.09 0)
 			(effects
 				(font
@@ -11664,15 +11800,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c7f1340-949e-459b-9ca8-ddc5d7fe4c2d")
+			(uuid "03533fbc-fed6-4545-acdc-84a8fb7d8dde")
 		)
 		(pin "2"
-			(uuid "cb20be1e-f084-4544-a75a-455db9489f28")
+			(uuid "f816229e-0d2b-44a3-ac3d-c5c4f0ce2606")
 		)
 		(instances
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
-					(reference "C15")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -11706,7 +11842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 242.57 373.38 0)
 			(effects
 				(font
@@ -11877,6 +12013,75 @@
 			(project "EEE3088F Micromouse Design"
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 40.64 341.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "518a324f-2ddd-466a-bde1-384ba61bb182")
+		(property "Reference" "C38"
+			(at 43.18 340.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 43.18 342.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 40.64 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 40.64 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43560990-20e2-4929-a2ea-ae5700e9be5d")
+		)
+		(pin "2"
+			(uuid "fb0c1dd1-ba62-4416-9bf9-07aa400f3a78")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -12587,7 +12792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 29.21 345.44 0)
 			(effects
 				(font
@@ -13045,75 +13250,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 260.35 339.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8247d758-084d-4344-a306-b6f7671b6ccc")
-		(property "Reference" "C27"
-			(at 262.89 337.8262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 262.89 340.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 260.35 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 260.35 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a58e5b5c-9005-4e7a-8240-0d6b219da2a4")
-		)
-		(pin "2"
-			(uuid "ca181160-1959-45fc-b6f3-68b92fa76c15")
-		)
-		(instances
-			(project "EEE3088F Micromouse Design"
-				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Energy:INA219AxD")
 		(at 148.59 62.23 0)
 		(unit 1)
@@ -13427,7 +13563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 130.81 62.23 0)
 			(effects
 				(font
@@ -15239,75 +15375,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 40.64 341.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb8350d1-60e6-4171-8519-cf75c881a36e")
-		(property "Reference" "C25"
-			(at 43.18 340.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 43.18 342.9062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 40.64 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 40.64 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d5ba06e-4b54-468e-ae43-e818e0178ce5")
-		)
-		(pin "2"
-			(uuid "572d3caa-d703-4483-956c-e32541e7a600")
-		)
-		(instances
-			(project "EEE3088F Micromouse Design"
-				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 541.02 68.58 0)
 		(mirror x)
 		(unit 1)
@@ -15981,6 +16048,93 @@
 			(project ""
 				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 19.05 345.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0baebb2-b9e5-46ae-af50-8c929a204aba")
+		(property "Reference" "R26"
+			(at 21.59 344.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1"
+			(at 21.59 346.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 19.05 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 19.05 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 19.05 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 19.05 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e7ad673-d656-4d44-a9bf-e6f769811741")
+		)
+		(pin "2"
+			(uuid "ad3a103e-05c0-4343-a7b9-ff1594a7b9e0")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "R26")
 					(unit 1)
 				)
 			)
