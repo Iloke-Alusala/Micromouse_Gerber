@@ -1,5 +1,5 @@
 
-(footprint IC_TPS61088RHLR (layer F.Cu) (tedit 67DF2816)
+(footprint IC_TPS61088RHLR (layer F.Cu) (tedit 67E37E5C)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -4.4408920985e-16 -3.76599 0) (layer F.SilkS)

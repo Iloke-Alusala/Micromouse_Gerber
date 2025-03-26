@@ -10609,7 +10609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 535.94 69.85 0)
 			(effects
 				(font
@@ -11260,7 +11260,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a3001ad-6e84-4e60-aa62-20dcf2f687e4")
 		(property "Reference" "U7"
 			(at 405.13 40.64 0)
@@ -11278,7 +11277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61088RHLR:IC_TPS61088RHLR"
+		(property "Footprint" "Package_DFN_QFN:Texas_VQFN-RHL-20"
 			(at 405.13 71.12 0)
 			(effects
 				(font
@@ -13549,7 +13548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_1.2uH:L_custom_SMD"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp"
 			(at 258.445 59.69 0)
 			(effects
 				(font
@@ -14449,7 +14448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 547.37 72.39 0)
 			(effects
 				(font
@@ -14822,7 +14821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 552.45 90.17 0)
 			(effects
 				(font
@@ -14959,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0420"
+		(property "Footprint" "Inductor_1.2uH:L_custom_SMD"
 			(at 364.49 78.74 0)
 			(effects
 				(font
@@ -15320,7 +15319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 541.02 68.58 0)
 			(effects
 				(font
