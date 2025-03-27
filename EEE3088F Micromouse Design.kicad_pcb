@@ -625,7 +625,7 @@
 		(at 56.4 60.7)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "Battery"
+		(property "Reference" "Testpoint1"
 			(at 0.4 -2.1 0)
 			(layer "F.SilkS")
 			(uuid "f692a2ed-b6f7-4bfd-bf3e-f95b5645298c")
@@ -728,7 +728,7 @@
 		(at 69.6 85)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "Switch"
+		(property "Reference" "TP21"
 			(at 0.9 -2.2 0)
 			(layer "F.SilkS")
 			(uuid "d207057d-b8f7-4762-a009-0f33b96b22db")
@@ -2371,7 +2371,7 @@
 		(at 63.7 90.3)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "5V"
+		(property "Reference" "TP17"
 			(at 0 -2 0)
 			(layer "F.SilkS")
 			(uuid "bdf0fac5-714a-40e5-ae82-b0b783ca40f6")
@@ -3808,7 +3808,7 @@
 				)
 			)
 		)
-		(property "LCSC" "     C17801"
+		(property "LCSC" "C17801"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5972,6 +5972,220 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "68c4cec9-175f-4fef-8c85-515d8e0afa49")
+		(at 78.1675 101.9 180)
+		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "capacitor handsolder")
+		(property "Reference" "C1"
+			(at 0 -1.16 0)
+			(layer "F.SilkS")
+			(uuid "290ce03b-162d-4ff5-86dc-a14e904a6fd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 0 1.16 0)
+			(layer "F.Fab")
+			(uuid "2bbdf95e-dc67-45bb-bb13-faa2e124655e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27e6ee68-ce7f-44b3-9d46-ab724a697297")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66f4c2e1-65bc-4a94-b9c9-dca9a0c92de2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8f0eaea-db84-4a81-a11f-87161dfd065b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "C_*")
+		(path "/eaf19a8f-05f8-48bf-9430-5b208b772663")
+		(sheetname "/")
+		(sheetfile "EEE3088F Micromouse Design.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.115835 0.36)
+			(end 0.115835 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7aab910a-e131-437b-9d8d-807beb1dc19a")
+		)
+		(fp_line
+			(start -0.115835 -0.36)
+			(end 0.115835 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a667ab9-d07e-4fad-b1f3-c6177b63eb8a")
+		)
+		(fp_line
+			(start 1.08 0.46)
+			(end -1.08 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0904bc1b-f057-472f-a038-3e8fb4c66a40")
+		)
+		(fp_line
+			(start 1.08 -0.46)
+			(end 1.08 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4dce9936-866a-40ca-a718-e38252b3b400")
+		)
+		(fp_line
+			(start -1.08 0.46)
+			(end -1.08 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "acc21494-8707-4ce9-acda-ec6568f57df2")
+		)
+		(fp_line
+			(start -1.08 -0.46)
+			(end 1.08 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e74a0df2-136d-43de-b191-68b6fd451e77")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2abe83d-ae54-460b-a1d5-e441b3b10809")
+		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4eefa0ce-8992-48a4-871f-9fbf5827df1b")
+		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "481d9246-6525-48fa-9d39-3ee0242b063d")
+		)
+		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "63523bc7-20d5-48c7-8889-2e597ba99c40")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "70bc2f5e-d747-4628-be4d-004844e726e0")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5675 0 180)
+			(size 0.735 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 1 "/5V Out")
+			(pintype "passive")
+			(uuid "78fb9ce5-5185-4cce-8ebd-059fbaeb96c5")
+		)
+		(pad "2" smd roundrect
+			(at 0.5675 0 180)
+			(size 0.735 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 28 "GND")
+			(pintype "passive")
+			(uuid "b29e548d-91d5-421d-bffe-86fca7334d09")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10905,7 +11119,7 @@
 		(at 99.1 90.1)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "3.3V"
+		(property "Reference" "TP16"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "818e87bc-db5f-4459-abfb-68d982c8852e")
@@ -11222,7 +11436,7 @@
 		(at 80.8 96.8)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "L out"
+		(property "Reference" "TP22"
 			(at 0.1 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "01d63143-ba4e-4b31-9db8-834f1b342c90")
@@ -11325,7 +11539,7 @@
 		(at 81.6 105.1)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "Comp"
+		(property "Reference" "TP20"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "5df50aa6-071b-4997-b969-7a555548c28d")

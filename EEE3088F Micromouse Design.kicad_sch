@@ -16969,7 +16969,7 @@
 				)
 			)
 		)
-		(property "LCSC" "     C17801"
+		(property "LCSC" "C17801"
 			(at 447.04 63.5 90)
 			(effects
 				(font
@@ -20770,7 +20770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 246.38 43.18 0)
 			(effects
 				(font
@@ -20789,6 +20789,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 246.38 43.18 0)
 			(effects
 				(font
