@@ -3,4 +3,5 @@
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "Inductor_1.2uH")(type "KiCad")(uri "${KIPRJMOD}/Inductor_1.2uH.pretty")(options "")(descr ""))
   (lib (name "FXL0420-1R2-M_SMD")(type "KiCad")(uri "${KIPRJMOD}/FXL0420-1R2-M_SMD.pretty")(options "")(descr ""))
+  (lib (name "Inductor22uH_custom")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Inductor22uH_custom.pretty")(options "")(descr ""))
 )
