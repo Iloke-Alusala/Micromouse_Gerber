@@ -14351,7 +14351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "HX_SS12D10G6_Switch:Untitled"
 			(at 130.81 76.2 0)
 			(effects
 				(font
@@ -18620,7 +18620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical"
 			(at 54.61 32.385 0)
 			(effects
 				(font
