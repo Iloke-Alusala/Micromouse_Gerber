@@ -23289,6 +23289,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f890392a-6e5d-4236-ae7d-2442a897cedd")
 	)
+	(gr_text "KRZDAN001 & ILOALS001 \nDaniel Kreuzer and Iloke Alusala\n Group 42\n"
+		(at 104.906046 77.974042 0)
+		(layer "B.SilkS")
+		(uuid "c5d7881e-9a08-40af-b68f-46da223e1faf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 111.787 87.6557)
 		(end 110.806 88.6365)

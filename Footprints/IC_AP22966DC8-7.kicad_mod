@@ -1,5 +1,5 @@
 
-(footprint IC_AP22966DC8-7 (layer F.Cu) (tedit 67E1C18E)
+(footprint IC_AP22966DC8-7 (layer F.Cu) (tedit 67E6A084)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 0.682 -2.3564 0) (layer F.SilkS)

@@ -1,4 +1,4 @@
-24753154700098025
+24753037029451469
 AP22966DC8-7
 IC_AP22966DC8-7
 
@@ -81722,7 +81722,7 @@ SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias
 SOIC, 8 Pin (http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx#page=8), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
-14
+20
 9
 Package_SO
 SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm
@@ -92924,20 +92924,20 @@ IC_TPS61088RHLR
 0
 21
 21
-TPS61088RHLR
-IC_TPS61088RHLR
+TPS61088_improved
+TPS61088_Improved
 
 
 0
-29
-29
-TPS61088RHLR
-TPS61088RHLR
+20
+4
+TPS61088_improved
+Untitled
 
 
 0
-21
-21
+0
+0
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
