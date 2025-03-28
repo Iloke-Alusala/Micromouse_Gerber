@@ -8515,6 +8515,12 @@
 		(uuid "99a40488-5166-4461-ba36-722a3de0d66c")
 	)
 	(junction
+		(at 48.26 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cd00a7b-ee12-4ef1-80a4-2868bc423652")
+	)
+	(junction
 		(at 21.59 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8846,7 +8852,7 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 36.83) (xy 440.69 60.96)
+			(xy 440.69 30.48) (xy 440.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9976,16 +9982,6 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 48.26) (xy 431.8 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a29c39-95d2-49b2-bd16-93e28dfee516")
-	)
-	(wire
-		(pts
 			(xy 21.59 347.98) (xy 21.59 339.09)
 		)
 		(stroke
@@ -10016,7 +10012,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 78.74) (xy 370.84 36.83)
+			(xy 370.84 78.74) (xy 370.84 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10256,6 +10252,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 34.29) (xy 49.53 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c17246-07d1-4073-aab6-b60bf5274778")
+	)
+	(wire
+		(pts
 			(xy 220.98 50.8) (xy 228.6 50.8)
 		)
 		(stroke
@@ -10446,7 +10452,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 34.29) (xy 49.53 34.29)
+			(xy 43.18 34.29) (xy 48.26 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10926,16 +10932,6 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 48.26) (xy 431.8 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63af9df-9072-4e3b-8daf-ee16da8e61cd")
-	)
-	(wire
-		(pts
 			(xy 429.26 96.52) (xy 435.61 96.52)
 		)
 		(stroke
@@ -11006,7 +11002,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 36.83) (xy 440.69 36.83)
+			(xy 370.84 30.48) (xy 440.69 30.48)
 		)
 		(stroke
 			(width 0)
@@ -12584,7 +12580,7 @@
 		)
 		(uuid "9213d292-34cf-4ea8-a37b-91219d9144a3")
 	)
-	(label "3V3 Out"
+	(label "3.3V Out"
 		(at 59.69 72.39 0)
 		(effects
 			(font
@@ -12723,16 +12719,6 @@
 			(justify right bottom)
 		)
 		(uuid "d17f8fe5-185a-4a42-884e-34f1eaf085f8")
-	)
-	(label "V_Battery-"
-		(at 43.18 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d20a8429-27ce-46f2-8dc0-fb078dcef64e")
 	)
 	(label "MOTOR1_A_OUT"
 		(at 86.36 368.3 0)
@@ -13189,7 +13175,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0497cbdb-d38d-4c13-944d-17b4e4f57808")
@@ -13257,7 +13243,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "068bea5e-7f76-4201-80a1-3e42ca7b5f26")
 		(property "Reference" "C17"
@@ -13414,7 +13400,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "0a25e09b-b778-48c2-b32e-3eface88a690")
 		(property "Reference" "R4"
@@ -13489,7 +13475,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7eaf2c-a812-4873-9e3e-8eac24561331")
@@ -13703,7 +13689,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "11cc3f93-4863-4611-8c81-f693e51a36d3")
 		(property "Reference" "C38"
@@ -13860,7 +13846,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "153e8811-1f75-4622-ae32-d3d6b76d795c")
@@ -13927,7 +13913,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "17650680-9fc5-4d76-a087-22f4dda8b031")
 		(property "Reference" "C20"
@@ -14006,7 +13992,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "1838410b-4356-4c6f-9bb9-93e7414f4f0f")
 		(property "Reference" "C22"
@@ -14296,7 +14282,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "1c6d8808-6e3e-47e2-bba6-24d263409d56")
 		(property "Reference" "R7"
@@ -14734,7 +14720,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "2c102e0b-cdac-4eae-bd2a-109b4ce3646c")
 		(property "Reference" "R21"
@@ -15179,7 +15165,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "38e4629f-c2ed-457e-8bbb-752ef4d8e4b6")
 		(property "Reference" "R8"
@@ -15316,285 +15302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS61088RHLR:TPS61088RHLR")
-		(at 405.13 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a3001ad-6e84-4e60-aa62-20dcf2f687e4")
-		(property "Reference" "U7"
-			(at 405.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS61088RHLR"
-			(at 405.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS61088:IC_TPS61088RHLR"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "VQFN-20 Texas Instruments"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPS61088RHLR/Texas+Instruments/view-part/?ref=eda"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "4219071/A 05/2017"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS61088RHLR/Texas+Instruments/view-part/?ref=snap"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TPS61088RHLR"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "10-A Fully-Integrated Synchronous Boost Converter"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C87357"
-			(at 405.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "20"
-			(uuid "5ddc9bcf-f841-44ea-bc2f-f50fbb1ab08c")
-		)
-		(pin "25"
-			(uuid "d1ac706c-a605-4ed6-8159-eec330b5afba")
-		)
-		(pin "26"
-			(uuid "52b910c6-bf49-4dec-adbb-d44472f6508b")
-		)
-		(pin "8"
-			(uuid "5e66cb44-9648-47cc-ba6f-42123fccb0e3")
-		)
-		(pin "23"
-			(uuid "c6bcba87-3d34-466b-8b9e-39afd678b3fb")
-		)
-		(pin "24"
-			(uuid "4e1a9ace-ab83-4228-84ae-00d216cfd03f")
-		)
-		(pin "9"
-			(uuid "b35a842a-4a94-4846-954b-2650744a063d")
-		)
-		(pin "13"
-			(uuid "c76842a3-2804-4588-bbe5-c1dda71a75dd")
-		)
-		(pin "16"
-			(uuid "a50f7386-7768-443f-9176-c1880ee768ba")
-		)
-		(pin "14"
-			(uuid "762404ce-adaf-4c61-9307-af4066a3a01b")
-		)
-		(pin "18"
-			(uuid "dfc45ced-1b03-4219-ae41-acde5daf6635")
-		)
-		(pin "19"
-			(uuid "3b08485f-c272-4cf5-9dd7-95dbc74edeb2")
-		)
-		(pin "11"
-			(uuid "f0818ba5-e0a5-42ae-a86c-674cbdb4ecc8")
-		)
-		(pin "21"
-			(uuid "b79ba0b5-521c-4f57-bba3-4bf84e2bcc47")
-		)
-		(pin "3"
-			(uuid "81488ebd-c823-4b51-a834-e85675b441e3")
-		)
-		(pin "1"
-			(uuid "2ce3ceea-03f6-4abb-801a-4dbd80016533")
-		)
-		(pin "7"
-			(uuid "b72c22b9-31f8-4a82-bf1b-23a748d4f715")
-		)
-		(pin "12"
-			(uuid "8611e9ff-5535-4cad-880b-bde0e98edb52")
-		)
-		(pin "17"
-			(uuid "aec0efc1-31cd-4780-b5b5-12cc0312f262")
-		)
-		(pin "5"
-			(uuid "f2760d38-2e19-48fd-928e-a7165fea1fa3")
-		)
-		(pin "2"
-			(uuid "833a4c79-1bea-49f2-920b-af9ba4cb4098")
-		)
-		(pin "6"
-			(uuid "79f9b447-5d89-46e4-9bd3-0afd32a564be")
-		)
-		(pin "4"
-			(uuid "11abbfd9-2763-4873-88ff-f676a6e32284")
-		)
-		(pin "15"
-			(uuid "22508644-9ddd-4937-8006-fca5e0e7a5b4")
-		)
-		(pin "10"
-			(uuid "1b1f884e-b11d-404d-b928-38d9ffca9184")
-		)
-		(pin "22"
-			(uuid "63af618d-dceb-4c28-8d34-c81821d867d4")
-		)
-		(pin "29"
-			(uuid "44bb3a4c-c75f-479e-bd14-479ab2dd712b")
-		)
-		(pin "27"
-			(uuid "a12df593-e1ac-4dc8-8b78-23ec5666231e")
-		)
-		(pin "28"
-			(uuid "bc39b196-1cd6-4c93-99a4-a79dc7ebbf66")
-		)
-		(instances
-			(project ""
-				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_12")
 		(lib_id "power:GND")
 		(at 55.88 331.47 180)
@@ -15667,7 +15374,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "3c72315a-7530-40e1-adfe-fd3fdc2a5495")
 		(property "Reference" "C39"
@@ -15825,7 +15532,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "442b7209-15e0-480a-aeec-c272c54dbc83")
 		(property "Reference" "C46"
@@ -16264,7 +15971,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "4a142263-8f9e-437c-96af-9063084676a3")
 		(property "Reference" "C23"
@@ -16496,7 +16203,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "54ffe194-a6e4-4139-b049-247898f2964a")
 		(property "Reference" "C13"
@@ -16575,7 +16282,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "578ca90f-f53a-4668-98c4-1723ec6f2407")
 		(property "Reference" "C18"
@@ -16720,7 +16427,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "5d9681c6-26ea-4bed-90a5-b4884a763146")
 		(property "Reference" "C43"
@@ -16943,7 +16650,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6201fd9a-5463-496c-8dd6-19c65821ccfd")
@@ -17007,7 +16714,7 @@
 	(symbol
 		(lib_name "GND_19")
 		(lib_id "power:GND")
-		(at 431.8 46.99 180)
+		(at 422.91 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17016,7 +16723,7 @@
 		(fields_autoplaced yes)
 		(uuid "62986acf-b5b2-4b31-9599-c22603081527")
 		(property "Reference" "#PWR015"
-			(at 431.8 40.64 0)
+			(at 422.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,7 +16732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 431.8 41.91 0)
+			(at 422.91 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17033,7 +16740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 431.8 46.99 0)
+			(at 422.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17042,7 +16749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 431.8 46.99 0)
+			(at 422.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17051,7 +16758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 431.8 46.99 0)
+			(at 422.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17178,7 +16885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HX_SS12D10G6_Switch:Untitled"
+		(property "Footprint" "Footprints:SS12D10G4 071"
 			(at 130.81 76.2 0)
 			(effects
 				(font
@@ -17198,6 +16905,15 @@
 		)
 		(property "Description" "Switch, single pole double throw"
 			(at 130.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2887259"
+			(at 130.81 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17297,7 +17013,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "66a6af9d-ac2c-4a52-8883-0a7194d50f6c")
 		(property "Reference" "C25"
@@ -17376,7 +17092,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6add6c36-24fa-459f-b883-37d56908c7ea")
@@ -17599,7 +17315,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6e6bd978-2cf9-403a-8804-be809d6aa86c")
 		(property "Reference" "#PWR02"
@@ -18497,7 +18213,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c19f511-10c6-4734-91c8-dc0e8fe19cfe")
@@ -18775,7 +18491,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9397e8d3-d611-4dae-87a4-10eaf97fc059")
@@ -18911,7 +18627,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "95220628-d66d-4286-909e-b2ae4d736cfc")
 		(property "Reference" "C21"
@@ -18989,7 +18705,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "987308ce-d74c-472c-bda0-60bed8d12e8a")
 		(property "Reference" "R5"
@@ -19198,7 +18914,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a0146bf9-0939-434f-af91-84e894a84583")
 		(property "Reference" "R6"
@@ -19274,7 +18990,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a0dac5d3-e3a6-4532-823a-2220cb6d6f21")
 		(property "Reference" "C16"
@@ -19551,7 +19267,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "a53def44-a974-4e72-8a44-af966541aa2e")
 		(property "Reference" "C42"
@@ -19630,7 +19346,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a55bf63e-a5ab-4620-aa2d-8f6463ac34d0")
 		(property "Reference" "J1"
@@ -19999,7 +19715,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "aa9d1b1d-6cfb-45bc-8e32-1023cb03ca3f")
 		(property "Reference" "C47"
@@ -20152,7 +19868,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe2c1fb-b0ff-4dcd-b2d0-c199540d4c80")
@@ -20476,6 +20192,276 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS61088RHLR:TPS61088RHLR")
+		(at 405.13 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acb3781b-5acb-4175-b947-6070d8b9f5ac")
+		(property "Reference" "U3"
+			(at 405.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS61088RHLR"
+			(at 405.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS61088:IC_TPS61088RHLR"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "VQFN-20 Texas Instruments"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPS61088RHLR/Texas+Instruments/view-part/?ref=eda"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "4219071/A 05/2017"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS61088RHLR/Texas+Instruments/view-part/?ref=snap"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TPS61088RHLR"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "10-A Fully-Integrated Synchronous Boost Converter"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 405.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "1d5cb9ef-14be-4733-8721-38aee958bc86")
+		)
+		(pin "23"
+			(uuid "43373f36-fb58-4443-9fda-9145bf8cdfc4")
+		)
+		(pin "24"
+			(uuid "f3fe46e1-8de3-40eb-b211-d6a9297508d2")
+		)
+		(pin "25"
+			(uuid "63d5abaf-239e-46bc-a4a4-d4c0a52c8ca6")
+		)
+		(pin "26"
+			(uuid "cb27755c-4a68-4cb0-9242-acc9a155140f")
+		)
+		(pin "27"
+			(uuid "cab731bb-abe8-410b-b20f-e961909c77e9")
+		)
+		(pin "28"
+			(uuid "bfe4b4cc-20fa-4569-bb7a-18c53d174353")
+		)
+		(pin "29"
+			(uuid "5ef985bf-925d-4814-aa5d-3bef38a93e13")
+		)
+		(pin "9"
+			(uuid "f6bf4e39-680e-4021-a88a-d1e184b22b39")
+		)
+		(pin "2"
+			(uuid "476077b0-c822-405a-a9c6-479f8564b3e6")
+		)
+		(pin "17"
+			(uuid "e83875c5-8797-4a63-8032-8293b1a3463e")
+		)
+		(pin "3"
+			(uuid "a8675992-8ac4-41e3-a74a-73f701db73cd")
+		)
+		(pin "13"
+			(uuid "303fb767-df88-42f9-b930-872946b44dcc")
+		)
+		(pin "5"
+			(uuid "4fa5c4bc-e22e-4afe-bcc2-17fa3977e571")
+		)
+		(pin "6"
+			(uuid "da5f3bfb-1a37-4879-8d50-384a60ae5b86")
+		)
+		(pin "7"
+			(uuid "1cedfff5-3016-4460-b0b6-ef6341727f41")
+		)
+		(pin "4"
+			(uuid "cceefa26-74f6-4187-977d-1d6ab755460f")
+		)
+		(pin "1"
+			(uuid "9fdcc10d-2fc0-4102-96a6-b743d6cb0bcd")
+		)
+		(pin "15"
+			(uuid "87114b4f-d6f5-4d65-bcf6-34e7776f9923")
+		)
+		(pin "16"
+			(uuid "31bc2d6f-d0d1-4481-9e2f-2bea7e941b83")
+		)
+		(pin "14"
+			(uuid "6dc39207-aa13-4f83-8869-acf1e613f212")
+		)
+		(pin "8"
+			(uuid "d2056a26-6383-4665-8cc1-662fdab0287f")
+		)
+		(pin "18"
+			(uuid "35052628-b19c-4b9a-bcfa-7f26454e594f")
+		)
+		(pin "19"
+			(uuid "73bf15bd-a97f-47eb-8d52-c46a86c4f6f3")
+		)
+		(pin "10"
+			(uuid "cfac7aaa-f47c-4b33-b5f6-212b09aa7270")
+		)
+		(pin "11"
+			(uuid "4cf35739-e07b-45cc-8ee3-9c50a5a83566")
+		)
+		(pin "12"
+			(uuid "917598fb-f871-476b-b9e7-b95d2dc65b9f")
+		)
+		(pin "20"
+			(uuid "fc3aacd0-7d16-410e-8f31-de017e61d381")
+		)
+		(pin "21"
+			(uuid "d419ed56-65cc-4cdd-afe2-0e64a7e0edd2")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 130.81 53.34 90)
 		(unit 1)
@@ -20624,7 +20610,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "b2987f62-0723-4215-a227-35ef3d42c6d6")
 		(property "Reference" "C19"
@@ -20780,7 +20766,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b47c1011-ed13-4d04-88d0-b4de6348cce6")
@@ -21357,7 +21343,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bd293358-ed3b-44f5-833e-d0fc9776f21e")
 		(property "Reference" "#PWR021"
@@ -21492,7 +21478,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c5f72f90-5dc2-4199-b91d-257c454bcc88")
 		(property "Reference" "J2"
@@ -22761,6 +22747,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 43.18 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d92a6f32-76f7-4530-aa3b-8b931cce6949")
+		(property "Reference" "#PWR022"
+			(at 43.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a906ec23-45d3-4ecc-88d1-220a7a61ecad")
+		)
+		(instances
+			(project ""
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_12")
 		(lib_id "power:GND")
 		(at 177.8 327.66 180)
@@ -22834,7 +22886,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "da08b9a6-442f-4882-a3c2-5cf17e86fb51")
 		(property "Reference" "C37"
@@ -23095,7 +23147,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "dcc20add-29a6-4510-9ee8-c246e07b8a95")
 		(property "Reference" "C40"
@@ -23240,7 +23292,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd97919d-a748-40a6-a0c8-6c7a421fc5be")
@@ -23453,7 +23505,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9a397a-271a-4cf5-9170-2cafaf154400")
@@ -23664,7 +23716,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "eaf19a8f-05f8-48bf-9430-5b208b772663")
 		(property "Reference" "C1"
@@ -24291,6 +24343,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f1d9953f-bdac-436d-9ddd-613ec517334a")
+		(property "Reference" "Testpoint2"
+			(at 43.18 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 45.72 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ee5a141-b940-4603-b39e-ea33f395c85b")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "Testpoint2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_Motor:DRV8833PW")
 		(at 172.72 364.49 0)
 		(unit 1)
@@ -24631,7 +24750,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf7a547-82a1-4829-bc0c-5a35a1502e12")
@@ -24721,12 +24840,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 422.91 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdba39e2-0b25-49c6-95a1-56c65251006f")
+		(property "Reference" "C52"
+			(at 425.45 44.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 425.45 46.9962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 422.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 422.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 422.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 422.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b57f11ee-85f8-4c53-8107-c2759de62725")
+		)
+		(pin "1"
+			(uuid "78d0f931-77ed-48d6-a311-890de115a077")
+		)
+		(instances
+			(project "EEE3088F Micromouse Design"
+				(path "/9da86a77-c081-4eef-8f80-aa4f3cdcfcf8"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 441.96 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe0f6157-fd58-4b97-ae2c-3b0ad2198f02")
