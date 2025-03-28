@@ -19983,7 +19983,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS61088:IC_TPS61088RHLR"
+		(property "Footprint" "TPS61088RHLR:TPS61088RHLR"
 			(at 405.13 71.12 0)
 			(effects
 				(font
