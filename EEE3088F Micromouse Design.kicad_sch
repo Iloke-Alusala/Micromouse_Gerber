@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "9da86a77-c081-4eef-8f80-aa4f3cdcfcf8")
 	(paper "A2")
+	(title_block
+		(title "EEE3088F Micromouse Power System Design")
+		(date "2025-04-25")
+		(rev "V1")
+		(company "UCT")
+		(comment 1 "DANIEL KREUZER (KRZDAN001)")
+		(comment 2 "ILOKE ALUSALA (ALSILO001)")
+		(comment 3 "AUTHORS:")
+	)
 	(lib_symbols
 		(symbol "AP22966DC8-7:AP22966DC8-7"
 			(pin_names
@@ -8041,6 +8050,26 @@
 		)
 		(uuid "0527c37d-7436-4910-bade-3e5f9861bf34")
 	)
+	(text "Controls charging \ncurrent mode"
+		(exclude_from_sim no)
+		(at 374.396 358.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09a22741-d31c-4ba3-8242-6e01e1d6edc5")
+	)
+	(text "HV from 9V\nUSB-C"
+		(exclude_from_sim no)
+		(at 216.662 320.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cc28e1e-72ce-4232-b9a0-f7a2d7316dc4")
+	)
 	(text "1206"
 		(exclude_from_sim no)
 		(at 127.762 62.738 0)
@@ -8062,6 +8091,36 @@
 		)
 		(uuid "17b34e6d-53e5-4fa9-897a-a0fdbd4d0a87")
 	)
+	(text "Test Point VCC"
+		(exclude_from_sim no)
+		(at 301.752 341.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ec748e9-9358-40c3-9461-c9d65f2ccf89")
+	)
+	(text "output pins \nto motors"
+		(exclude_from_sim no)
+		(at 97.536 378.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d3bdec6-ad46-4f8e-ab24-6e2f799c71b2")
+	)
+	(text "output to\nexternal load"
+		(exclude_from_sim no)
+		(at 563.626 329.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35755f96-fef3-48a2-847b-fac758eeeac7")
+	)
 	(text "200mA Motor"
 		(exclude_from_sim no)
 		(at 54.102 320.04 0)
@@ -8082,15 +8141,45 @@
 		)
 		(uuid "468062be-914e-4e5b-9925-6ea838d4ae73")
 	)
-	(text "External Load Switching x2 (Downloaded Footprint Online)"
+	(text "control pins \nfrom MU"
 		(exclude_from_sim no)
-		(at 510.032 287.528 0)
+		(at 35.306 371.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49ed153b-5d47-44f2-b71c-3788206d885f")
+	)
+	(text "External Load Switching x2"
+		(exclude_from_sim no)
+		(at 503.428 306.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "4f2f511c-cc38-4392-8d52-ddd02258dcb1")
+	)
+	(text "control pins \nfrom MU"
+		(exclude_from_sim no)
+		(at 135.382 370.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5651642e-ca28-4757-b5be-df9e63ebbcd2")
+	)
+	(text "Sense Resistors--> Set Current Limit"
+		(exclude_from_sim no)
+		(at 106.172 342.392 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a2abda4-3c09-436e-b34e-30253a04cc71")
 	)
 	(text "Keep searching here"
 		(exclude_from_sim no)
@@ -8102,16 +8191,6 @@
 		)
 		(uuid "66588df9-3ed5-4c86-bc53-19e5046c4297")
 	)
-	(text "locate resistor & change\nfootprint\n"
-		(exclude_from_sim no)
-		(at 122.174 335.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "75cc5e8b-f4f3-4aa8-91cc-0e70b8e3b33e")
-	)
 	(text "5V Output Step Up Boost Converter\n\n "
 		(exclude_from_sim no)
 		(at 410.718 18.034 0)
@@ -8122,6 +8201,46 @@
 		)
 		(uuid "888e88f6-c093-4347-a577-598d0dcae9c7")
 	)
+	(text "Resistors that\nset charging\ncurrent"
+		(exclude_from_sim no)
+		(at 351.282 383.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8978d0dc-6461-492b-94b8-b614ad68fef0")
+	)
+	(text "Control pin\nfrom MU"
+		(exclude_from_sim no)
+		(at 457.2 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ab051ab-2d58-4e72-9333-b9648ac279a9")
+	)
+	(text "output pins \nto motors"
+		(exclude_from_sim no)
+		(at 196.85 378.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8bf5a3ed-4dd5-4cb7-8aef-645cb47008e2")
+	)
+	(text "Control pin\nfrom MU"
+		(exclude_from_sim no)
+		(at 477.012 352.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cb9b370-8b7d-45b8-ac25-59c59a337578")
+	)
 	(text "0805"
 		(exclude_from_sim no)
 		(at 332.994 387.604 0)
@@ -8131,6 +8250,16 @@
 			)
 		)
 		(uuid "93f2055a-42c4-460b-aade-770ed34dc17f")
+	)
+	(text "Sense Resistors--> Set Current Limit"
+		(exclude_from_sim no)
+		(at 18.542 340.614 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95026092-d4c9-4757-8989-54c287fa74f3")
 	)
 	(text "Changes:\n- Replaced 1N5819 with SS32\n"
 		(exclude_from_sim no)
@@ -8162,15 +8291,35 @@
 		)
 		(uuid "b5754dfd-a6b2-42e3-8ce3-ee98009bdba9")
 	)
+	(text "output to\nexternal load"
+		(exclude_from_sim no)
+		(at 551.18 313.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b94929a6-f772-4ab7-81f6-41aff74c4a90")
+	)
 	(text "9V -> 5V Buck Converter"
 		(exclude_from_sim no)
-		(at 235.458 296.672 0)
+		(at 257.556 301.498 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "bf14cdf1-d518-4319-a849-9de074f70cd3")
+	)
+	(text "3.7V from battery"
+		(exclude_from_sim no)
+		(at 145.542 334.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4d9c044-5cda-47ef-a1c9-09b1f45f20ae")
 	)
 	(text "Battery Monitoring and Switching Circuit"
 		(exclude_from_sim no)
@@ -8201,6 +8350,36 @@
 			)
 		)
 		(uuid "e161af13-497f-4c7d-a139-37eb735fdcac")
+	)
+	(text "output pin to\ncharge battery"
+		(exclude_from_sim no)
+		(at 366.522 332.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e510e5cf-d74f-42f4-b2dc-1d98f7616346")
+	)
+	(text "Stepped Down 5V"
+		(exclude_from_sim no)
+		(at 335.788 313.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb6262ea-93b6-47ce-b27f-bf1f47bfe2a6")
+	)
+	(text "3.7V from battery"
+		(exclude_from_sim no)
+		(at 44.45 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec7ff79d-646b-4116-bb70-4b09126d64cf")
 	)
 	(junction
 		(at 441.96 63.5)
@@ -12210,16 +12389,6 @@
 		)
 		(uuid "091c1299-bf03-48dc-bf73-2f34f8594315")
 	)
-	(label "Stepped Down 5V"
-		(at 335.28 314.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09dbcfd3-2363-4082-be1b-af7a3fc5db81")
-	)
 	(label "SCLK_INA219"
 		(at 168.91 59.69 0)
 		(effects
@@ -14269,10 +14438,9 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fdb2080-d912-4f9f-8bda-390546251d07")
 		(property "Reference" "Mr2"
-			(at 17.018 358.14 90)
+			(at 20.32 365.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14280,7 +14448,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 17.018 360.68 90)
+			(at 20.32 368.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22019,10 +22187,9 @@
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0a750ad-bc9e-444f-8e39-4bba1acc8c96")
 		(property "Reference" "Mr4"
-			(at 109.728 356.87 90)
+			(at 110.744 364.236 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22030,7 +22197,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 109.728 359.41 90)
+			(at 110.744 366.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24055,7 +24222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AP22966DC8-7:IC_AP22966DC8-7"
+		(property "Footprint" "AP22966DC8-7:AP22966DC8-7"
 			(at 502.92 340.36 0)
 			(effects
 				(font
