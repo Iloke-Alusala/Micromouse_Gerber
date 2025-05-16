@@ -3,6 +3,12 @@
 This repository contains the KiCad schematic and PCB design files for the **power subsystem** of a modular micromouse robot, developed as part of the EEE3088F final year design course at the University of Cape Town.
 
 ---
+# ⚠️ Warning: Do Not Use As-Is
+This repository contains schematic and PCB design files for a micromouse power subsystem. These designs are provided for reference and educational purposes only.
+Several components in the schematic and PCB do not function as intended due to design or implementation limitations, though many of the core design choices and ideas remain valid. Always check all datasheets of ICs and components used in a given section before adopting this to your own design.
+Therefore, this hardware should not be used as-is for production or critical applications.
+You are encouraged to use the files for inspiration or as a starting point, but please verify and test all circuits thoroughly before use in any real-world system.
+---
 
 ## 📌 Project Overview
 
@@ -27,12 +33,6 @@ Micromouse robots are autonomous robots that solve mazes using onboard logic and
 - **Regulated 5V and 3.3V ouptu voltages supporting 300mA and 1.5A outputs**
 - **Physical ON-OFF switch for disabling and enabling battery connection to the board**
 
----
-# ⚠️ Warning: Do Not Use As-Is
-This repository contains schematic and PCB design files for a micromouse power subsystem. These designs are provided for reference and educational purposes only.
-Several components in the schematic and PCB do not function as intended due to design or implementation limitations, though many of the core design choices and ideas remain valid. Always check all datasheets of ICs and components used in a given section before adopting this to your own design.
-Therefore, this hardware should not be used as-is for production or critical applications.
-You are encouraged to use the files for inspiration or as a starting point, but please verify and test all circuits thoroughly before use in any real-world system.
 ---
 
 ## 📁 Repository Structure
