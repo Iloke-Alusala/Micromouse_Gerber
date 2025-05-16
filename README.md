@@ -5,9 +5,10 @@ This repository contains the KiCad schematic and PCB design files for the **powe
 ---
 # ⚠️ Warning: Do Not Use As-Is
 This repository contains schematic and PCB design files for a micromouse power subsystem. These designs are provided for reference and educational purposes only.
-Several components in the schematic and PCB do not function as intended due to design or implementation limitations, though many of the core design choices and ideas remain valid. Always check all datasheets of ICs and components used in a given section before adopting this to your own design.
-Therefore, this hardware should not be used as-is for production or critical applications.
-You are encouraged to use the files for inspiration or as a starting point, but please verify and test all circuits thoroughly before use in any real-world system.
+
+Several components in the schematic and PCB do not function as intended due to design or implementation limitations, though many of the core design choices and ideas remain valid. Always check all datasheets of ICs and components used in a given section before adopting this to your own design.**
+
+Therefore, this hardware should not be used as-is for production or critical applications.You are encouraged to use the files for inspiration or as a starting point, but please verify and test all circuits thoroughly before use in any real-world system.
 ---
 
 ## 📌 Project Overview
